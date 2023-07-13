@@ -184,7 +184,7 @@ function displayData(page) {
         item.semester +
         "</td><td>" +
         item.sks +
-        '</td><td><button onclick=location.href="/view/" id="viewbtn" class="btn btn-primary btn-sm me-1">View</button><button id="editbtn" onclick=location.href="../create/" class="btn btn-secondary me-1 btn-sm">Edit</button><button id="savebtn" class="btn btn-success btn-sm me-1" data-bs-toggle="modal" data-bs-target="#downloadDialog">Save</button><button class="btn btn-danger btn-sm" id="deletebtn" data-bs-toggle="modal" data-bs-target="#deleteDialog">Delete</button></td></tr>'
+        '</td><td><button onclick=location.href="../view/" id="viewbtn" class="btn btn-primary btn-sm me-1">View</button><button id="editbtn" onclick=location.href="../create/" class="btn btn-secondary me-1 btn-sm">Edit</button><button id="savebtn" class="btn btn-success btn-sm me-1" data-bs-toggle="modal" data-bs-target="#downloadDialog">Save</button><button class="btn btn-danger btn-sm" id="deletebtn" data-bs-toggle="modal" data-bs-target="#deleteDialog">Delete</button></td></tr>'
     );
     tableBody.append(row);
   });
