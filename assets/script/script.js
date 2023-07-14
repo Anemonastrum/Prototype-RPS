@@ -184,7 +184,7 @@ function displayData(page) {
         item.semester +
         "</td><td>" +
         item.sks +
-        '</td><td><button onclick=location.href="../view/" id="viewbtn" class="btn btn-primary btn-sm me-1">View</button><button id="editbtn" onclick=location.href="../create/" class="btn btn-secondary me-1 btn-sm">Edit</button><button id="savebtn" class="btn btn-success btn-sm me-1" data-bs-toggle="modal" data-bs-target="#downloadDialog">Save</button><button class="btn btn-danger btn-sm" id="deletebtn" data-bs-toggle="modal" data-bs-target="#deleteDialog">Delete</button></td></tr>'
+        '</td><td><button id="savebtn" class="btn btn-success btn-sm me-1" data-bs-toggle="modal" data-bs-target="#downloadDialog"><i class="fas fa-save"></i></button><button onclick=location.href="../view/" id="viewbtn" class="btn btn-primary btn-sm me-1"><i class="fas fa-eye"></i></button><button id="editbtn" onclick=location.href="../create/" class="btn btn-secondary me-1 btn-sm"><i class="fas fa-edit"></i></button><button class="btn btn-danger btn-sm" id="deletebtn" data-bs-toggle="modal" data-bs-target="#deleteDialog"><i class="fas fa-trash"></i></button></td></tr>'
     );
     tableBody.append(row);
   });
